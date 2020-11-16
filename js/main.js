@@ -62,7 +62,7 @@ $(document).ready(function () {
   // function facebookIconFunction(){
   //   if (
   //     document.body.scrollTop > 0 ||
-  //     document.documentElement.scrollTop > 0
+  //     document.documentElement.scrollTop > 100
   //   ) {
   //     facebookicon.style.display = "block";
   //   } else {
