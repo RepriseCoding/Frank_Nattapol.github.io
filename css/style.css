@@ -260,6 +260,28 @@ img.img {
   font-size: 12px;
 }
 /* go top button */
+#facebook-icon {
+  width: 50px;
+  position: fixed;
+  bottom: 420px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+#line-icon {
+  width: 50px;
+  position: fixed;
+  bottom: 350px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
 #goTop {
   width: 50px;
   display: none;
@@ -270,7 +292,6 @@ img.img {
   border: none;
   outline: none;
   cursor: pointer;
-  border: 1px solid white;
   border-radius: 50%;
 }
 
