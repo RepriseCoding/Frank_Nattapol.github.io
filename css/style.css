@@ -253,6 +253,12 @@ img.img {
   color: #0a0a0a;
   text-decoration: none;
 }
+.footer-copyright {
+  font-size: 12px;
+}
+.footer-link-copyright {
+  font-size: 12px;
+}
 /* go top button */
 #goTop {
   width: 50px;
