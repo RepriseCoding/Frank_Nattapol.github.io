@@ -10,8 +10,9 @@
   <!-- Bootstrap CSS -->
   <link rel="shortcut icon" type="image/x-icon" href="F.png" />
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet" />
   <link rel="stylesheet" href="css/aos/aos.css">
   <link rel="stylesheet" href="css/jquery.animatedheadline.css">
@@ -31,8 +32,14 @@
 <body>
   <!-- ======= Navbar ======= -->
   <header>
-    <nav class="navbar navbar-expand-sm navbar-dark">
-      <div class="ah1">
+    <div class="container-fluid">
+      <a class="row justify-content-center pt-2" style="width:auto; background-color: white;">
+        <img class="" style="width: 140px; height: 80px;" src="images/logo.png" alt="">
+      </a>
+    </div>
+   
+    <nav class="navbar navbar-expand-lg">
+      <div class="ah1 ml-0">
         <a class="navbar-brand ah-headline" href="index.html">
           <span class="ah-words-wrapper">
             <b class="is-visible">My Portfolio</b>
@@ -40,10 +47,20 @@
           </span>
         </a>
       </div>
-      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+      <!-- <img class="" style="width: 100px; height: 60px;" src="images/logo.png" alt=""> -->
+
+      <!-- <a class="navbar-brand" style="border: 1px solid red; width:auto">
+        <img class="" style="width: 100px; height: 60px;" src="images/logo.png" alt="">
+
+      </a> -->
+      
+
+      <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
         aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
+        
       <div class="collapse navbar-collapse" id="collapsibleNavId">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true"
               aria-expanded="false">Portfolio</a>
@@ -89,37 +106,37 @@
 
             <a href="images/design/artwork/a-1.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1500x1500">
-              <img src="images/design/artwork/a-1.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/a-1.jpg" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
             <a href="images/design/artwork/a-2.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1500x1500">
-              <img src="images/design/artwork/a-2.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/a-2.jpg" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
             <a href="images/design/artwork/a-3.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1500x1500">
-              <img src="images/design/artwork/a-3.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/a-3.jpg" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
             <a href="images/design/artwork/a-4.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1500x1500">
-              <img src="images/design/artwork/a-4.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/a-4.jpg" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
             <a href="images/design/artwork/a-5.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="2480x3508">
-              <img src="images/design/artwork/a-5.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/a-5.jpg" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
             <a href="images/design/artwork/a-6.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="960x1200">
-              <img src="images/design/artwork/a-6.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/a-6.jpg" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
           </div>
@@ -127,51 +144,37 @@
           <div class="artwork-owl owl-carousel my-gallery">
             <a href="images/design/artwork/r-1.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1500x1500">
-              <img src="images/design/artwork/r-1.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/r-1.jpg" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
             <a href="images/design/artwork/r-2.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1500x1500">
-              <img src="images/design/artwork/r-2.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
-                itemprop="thumbnail" alt="Image description" />
-            </a>
-          </div>
-
-          <div class="artwork-owl owl-carousel my-gallery">
-            <a href="images/design/artwork/s-1.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
-              data-size="2400x1600">
-              <img src="images/design/artwork/s-1.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
-                itemprop="thumbnail" alt="Image description" />
-            </a>
-
-            <a href="images/design/artwork/s-2.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
-              data-size="2400x1600">
-              <img src="images/design/artwork/s-2.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/r-2.jpg" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
             <a href="images/design/artwork/s-3.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1199x1200">
-              <img src="images/design/artwork/s-3.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/s-3.jpg" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
             <a href="images/design/artwork/s-4.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1080x1080">
-              <img src="images/design/artwork/s-4.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/s-4.jpg" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
             <a href="images/design/artwork/s-5.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1200x1200">
-              <img src="images/design/artwork/s-5.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/s-5.jpg" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
             <a href="images/design/artwork/s-6.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1200x1200">
-              <img src="images/design/artwork/s-6.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/s-6.jpg" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
           </div>
@@ -179,31 +182,31 @@
           <div class="artwork-owl owl-carousel my-gallery">
             <a href="images/design/artwork/t-1.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="960x960">
-              <img src="images/design/artwork/t-1.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/t-1.jpg" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
             <a href="images/design/artwork/t-2.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="960x960">
-              <img src="images/design/artwork/t-2.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/t-2.jpg" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
             <a href="images/design/artwork/t-3.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1200x960">
-              <img src="images/design/artwork/t-3.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/t-3.jpg" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
             <a href="images/design/artwork/t-4.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="960x960">
-              <img src="images/design/artwork/t-4.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/t-4.jpg" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
             <a href="images/design/artwork/t-5.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="960x960">
-              <img src="images/design/artwork/t-5.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/t-5.jpg" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
           </div>
@@ -211,19 +214,19 @@
           <div class="artwork-owl owl-carousel my-gallery">
             <a href="images/design/artwork/v-1.png" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1920x1080">
-              <img src="images/design/artwork/v-1.png" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/v-1.png" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
             <a href="images/design/artwork/v-2.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1920x1080">
-              <img src="images/design/artwork/v-2.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/v-2.jpg" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
             <a href="images/design/artwork/v-3.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="2000x800">
-              <img src="images/design/artwork/v-3.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/v-3.jpg" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
           </div>
@@ -231,37 +234,37 @@
           <div class="artwork-owl owl-carousel my-gallery">
             <a href="images/design/artwork/z-1.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="960x960">
-              <img src="images/design/artwork/z-1.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/z-1.jpg" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
             <a href="images/design/artwork/z-2.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="960x960">
-              <img src="images/design/artwork/z-2.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/z-2.jpg" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
             <a href="images/design/artwork/z-3.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1500x1500">
-              <img src="images/design/artwork/z-3.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/z-3.jpg" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
             <a href="images/design/artwork/z-4.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1500x1500">
-              <img src="images/design/artwork/z-4.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/z-4.jpg" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
             <a href="images/design/artwork/z-5.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1500x1500">
-              <img src="images/design/artwork/z-5.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/z-5.jpg" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
             <a href="images/design/artwork/z-6.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1500x1000">
-              <img src="images/design/artwork/z-6.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork/z-6.jpg" loading="lazy" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
           </div>
@@ -333,16 +336,14 @@
           <img src="images/frank.jpg" id="img-about" class="img-fluid" style=" border-radius: 50%;" alt="">
         </div>
         <div class="col-11 col-md-11 col-xl-8" id="about-detail">
-          <h1 class="mt-3 ml-3" style="font-size: 40px;">สวัสดีครับ !</h1>
-          <h4 class="ml-5" style="font-size:20px;">ผมชื่อ ณัฐพล บุญมาทัน</h4>
+          <h1 class="mt-3 ml-3" style="font-size: 40px;">Hi !</h1>
+          <h4 class="ml-5" style="font-size:20px;">I'm Nattapol Boonmatan</h4>
           <p class="ml-5">
-            ผมมีความประสงค์จะใช้ความสามารถทางด้าน Graphic design ด้วยความตั้งใจและความละเอียดรอบคอบ กระตือรืนร้น
-            และรับผิดชอบงานเป็นอย่างดี ซึ่งจะช่วยให้ตัวของผมประสบความสำเร็จ รวมทั้งองค์กรก็จะประสบความสำเร็จ
-            ตามเป้าหมายที่วางไว้
+            Having energetic and responsible,fast learning and continual improvement.
+
           </p>
           <div class="about-button d-flex justify-content-center mt-5 mb-3">
-            <a href="file/resume.pdf" target="_blank" class="btn btn-primary justify-content-center">ดาวน์โหลด
-              เรซูเม่</a>
+            <a href="file/resume.pdf" target="_blank" class="btn btn-primary justify-content-center">Download Resume</a>
           </div>
         </div>
       </div>
@@ -403,10 +404,13 @@
                 <div class="timeline-label">
                   <h2>
                     <span>Graphic Designer At</span>
-                    <a class="text-danger">Sunthon Rungroj Unity Company Limited</a>
+                    <a class="text-secondary">Sunthon Rungroj Unity Company Limited</a>
                     <span>Jul 2020 - Nov 2020</span>
                   </h2>
                   <p>
+                    <ul>
+                      <li> Designed Banner, Edited video product for platform online (Facebook, Instagram, Shopee , Lazada etc.)</li>
+                    </ul>
                   </p>
                 </div>
               </div>
@@ -419,10 +423,13 @@
                 <div class="timeline-label">
                   <h2>
                     <span>Graphic Designer At</span>
-                    <a class="text-danger">PPN Beverage Company Limited</a>
+                    <a class="text-secondary">PPN Beverage Company Limited</a>
                     <span>Aug 2019 - Nov 2019</span>
                   </h2>
                   <p>
+                    <ul>
+                      <li> Designed packaging and sticker</li>
+                    </ul>
                   </p>
                 </div>
               </div>
@@ -435,12 +442,18 @@
                 <div class="timeline-label">
                   <h2>
                     <span>Creative Online & Video Editor At</span>
-                    <a class="text-danger" target="_blank" href="http://www.gmmgrammy.com/th/index.html">
-                      GMM Grammy Plubic Company Limited
+                    <a class="text-secondary" target="_blank" href="http://www.gmmgrammy.com/th/index.html">
+                      GMM Grammy Plubic Company Limited 
                     </a>
                     <span>Nov 2018 - Apr 2019</span>
                   </h2>
                   <p>
+                    (Cooperative Education)
+                    <ul>
+                      <li> Designed Banner, Standee etc.</li>
+                      <li> Music video edited for Grammy-gold</li>
+                      <li> Made a clip on YouTube for promoted  music video on Valentine's day</li>
+                    </ul>
                   </p>
                 </div>
               </div>
@@ -570,7 +583,7 @@
     <!-- Footer Links -->
     <div class="container">
       <!-- Grid row-->
-      <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+      <div class="row text-center d-flex justify-content-center pt-5 mb-3" id="footer-url">
         <!-- Grid column -->
         <div class="col-md-2 mb-3">
           <h6 class="text-uppercase font-weight-bold">
@@ -675,7 +688,6 @@
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
-  <!-- <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script> -->
   <script src="js/bootstrap.min.js"></script>
   <script src="js/aos.js"></script>
   <script src="js/jquery.animatedheadline.min.js"></script>
@@ -684,15 +696,6 @@
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/photoswipe.min.js"></script>
   <script src="js/photoswipe-ui-default.min.js"></script>
-  <!-- <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
-  <!-- <script src="node_modules/aos/dist/aos.js"></script> -->
-  <!-- <script src="node_modules/jquery-animated-headlines/dist/js/jquery.animatedheadline.min.js"></script>
-  <script src="node_modules/jquery.easing/jquery.easing.min.js"></script>
-  <script src="node_modules/isotope-layout/isotope.pkgd.min.js"></script> -->
-  <!-- <script src="node_modules/owl.carousel/owl.carousel.min.js"></script> -->
-  <!-- <script src="node_modules/PhotoSwipe-master/dist/photoswipe.min.js"></script>
-  <script src="node_modules/PhotoSwipe-master/dist/photoswipe-ui-default.min.js"></script>
-  <script src="node_modules/parallaxie/parallaxie.js"></script> -->
 
 
   <!-- Use Function Script -->
@@ -714,7 +717,7 @@
           items: 1
         },
         720: {
-          items: 5
+          items: 3
         },
         1000: {
           items: 5
