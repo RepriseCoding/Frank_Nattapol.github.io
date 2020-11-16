@@ -92,7 +92,7 @@
     <div class="container container-port">
       <div class="row justify-content-center">
         <div class="col-12 text-center">
-          <div class="artwork-owl owl-carousel my-gallery pt-3">
+          <div class="artwork-owl owl-carousel owl-theme my-gallery pt-3">
 
             <a href="images/design/artwork/a-1.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1500x1500">
@@ -131,7 +131,7 @@
             </a>
           </div>
 
-          <div class="artwork-owl owl-carousel my-gallery">
+          <div class="artwork-owl owl-carousel owl-theme my-gallery">
 
             <a href="images/design/artwork/r-1.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1500x1500">
@@ -182,7 +182,7 @@
             </a>
           </div>
 
-          <div class="artwork-owl owl-carousel my-gallery">
+          <div class="artwork-owl owl-carousel owl-theme my-gallery">
             <a href="images/design/artwork/t-1.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="960x960">
               <img src="images/design/artwork-thumbnail/t-1-thumbnail.jpg" class="img-fluid thumbnail-box"
@@ -214,7 +214,7 @@
             </a>
           </div>
 
-          <div class="artwork-owl owl-carousel my-gallery">
+          <div class="artwork-owl owl-carousel owl-theme my-gallery">
             <a href="images/design/artwork/v-1.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1920x1080">
               <img src="images/design/artwork-thumbnail/v-1-thumbnail.jpg" class="img-fluid thumbnail-box"
@@ -286,36 +286,31 @@
   </div>
 
   <!------------------------ Video Portfolio ------------------------------------------>
-  <section class="section site-portfolio">
+  <!-- <section class="section site-portfolio">
     <div class="container  container-port">
       <div class="row no-gutter justify-content-center" data-aos="fade-up" data-aos-delay="200">
-        <!-- <div class="col-sm-6 col-md-6 col-lg-5 mb-4">
-          <a><img class="img-fluid z-depth-1" src="https://mdbootstrap.com/img/screens/yt/screen-video-1.jpg"
-              alt="video" data-toggle="modal" data-target="#modal1"></a>
-        </div> -->
 
-        <!-- ฮักแพงกันเด้อ (รถแห่) - เต๋า ภูศิลป์【TEASER】 -->
         <div class="col-sm-6 col-md-5 col-lg-5 mb-4 mt-4 embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uFetv2AGvoU"
             allowfullscreen></iframe>
         </div>
-        <!-- ตัวคั่น -->
+        
         <div class="col-sm-6 col-md-1 col-lg-1 mb-4 mt-4">
         </div>
-        <!-- แล้วไผสิฮักอ้าย - เน็ค นฤพล【Teaser】 -->
+
         <div class="col-sm-6 col-md-5 col-lg-5 mb-4 mt-4 embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/M2oPjg1nXrU"
             allowfullscreen></iframe>
         </div>
-        <!-- ถ้าไม่ซื้อกุหลาบจะซื้ออะไรให้คนรัก - เต๋า ภูศิลป์【Special Clip】 -->
+
         <div class="col-sm-6 col-md-5 col-lg-5 mb-4 embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wn6f8Ntns8M"
             allowfullscreen></iframe>
         </div>
-        <!-- ตัวคั่น -->
+
         <div class="col-sm-6 col-md-1 col-lg-1 mb-4 ">
         </div>
-        <!-- เบื้องหลังการถ่ายทำ MV ซื้อกุหลาบให้เจ้าของ - เต๋า ภูศิลป์ -->
+
         <div class="col-sm-6 col-md-5 col-lg-5 mb-4 embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8g952p7zFqs"
             allowfullscreen></iframe>
@@ -323,7 +318,7 @@
       </div>
 
     </div>
-  </section>
+  </section> -->
 
   <!-- About Parallax Banner -->
   <div id="main_about_bg" class="parallaxie">
@@ -702,7 +697,6 @@
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
-  <!-- <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script> -->
   <script src="js/bootstrap.min.js"></script>
   <script src="js/aos.js"></script>
   <script src="js/jquery.animatedheadline.min.js"></script>
@@ -711,26 +705,19 @@
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/photoswipe.min.js"></script>
   <script src="js/photoswipe-ui-default.min.js"></script>
-  <!-- <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
-  <!-- <script src="node_modules/aos/dist/aos.js"></script> -->
-  <!-- <script src="node_modules/jquery-animated-headlines/dist/js/jquery.animatedheadline.min.js"></script>
-  <script src="node_modules/jquery.easing/jquery.easing.min.js"></script>
-  <script src="node_modules/isotope-layout/isotope.pkgd.min.js"></script> -->
-  <!-- <script src="node_modules/owl.carousel/owl.carousel.min.js"></script> -->
-  <!-- <script src="node_modules/PhotoSwipe-master/dist/photoswipe.min.js"></script>
-  <script src="node_modules/PhotoSwipe-master/dist/photoswipe-ui-default.min.js"></script>
-  <script src="node_modules/parallaxie/parallaxie.js"></script> -->
 
 
   <!-- Use Function Script -->
   <script>
-    // $('.parallaxie').parallaxie();
     $('.artwork-owl').owlCarousel({
       center: false,
-      loop: false,
+      loop: true,
       margin: 10,
       nav: false,
       pagination: false,
+      autoplay: true,
+      autoplayTimeout: 2000,
+      autoplayHoverPause: true,
       autowidth: false,
       itemElement: 'figure',
       responsive: {
