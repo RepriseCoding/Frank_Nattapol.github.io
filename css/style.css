@@ -1,12 +1,12 @@
 body {
-  /* font-family: "K2D", sans-serif; */
-  /* font-family: "Poppins", sans-serif; */
   /* background-color: #000000; */
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  background: #f2f3f7;
 }
 footer {
   /* background-color: #000000; */
-  background: #0a0a0a;
+  /* background: #0a0a0a; */
+  background-color: white;
 }
 a {
   color: #777;
@@ -16,18 +16,38 @@ a:hover {
   color: #000;
 }
 nav {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #1c1b1b !important;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  background-color: white;
   /* background-color: #393939; */
-  background-color: #0a0a0a;
+  /* background-color: #0a0a0a; */
+  border-bottom: gray solid 1px;
+  font-size: 12px;
   /* background-color: #212529; */
   /* background: rgba(255, 255, 255, 0.1); */
 }
 .dropdown-menu {
-  /* background-color: #212529; */
-  background-color: #0a0a0a;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #1c1b1b !important;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  background-color: white;
+  border-bottom: gray solid 1px;
+  font-size: 12px;
 }
-.dropdown-item {
+/* .dropdown-item {
   color: white;
-}
+} */
 header {
   position: sticky;
   top: 0;
@@ -36,18 +56,40 @@ header {
 img.img {
   width: 100%;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.font-heading {
-  font-family: "Oswald", sans-serif;
-  /* font-family: "Big Shoulders Stencil Text", cursive; */
-  /* font-family: "Josefin Sans", sans-serif; */
-  /* font-family: "Raleway", sans-serif; */
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
 }
+.bar1 {
+  display: block;
+  position: relative;
+  width: 22px;
+  height: 1px;
+  border-radius: 1px;
+  background-color: #0a0a0a;
+}
+.bar2 {
+  display: block;
+  position: relative;
+  width: 22px;
+  height: 1px;
+  border-radius: 1px;
+  background-color: #0a0a0a;
+  margin-top: 7px;
+}
+.bar3 {
+  display: block;
+  position: relative;
+  width: 22px;
+  height: 1px;
+  border-radius: 1px;
+  background-color: #0a0a0a;
+  margin-top: 7px;
+}
+
 .container-port {
   /* background: #323232; */
   background: #f2f3f7;
@@ -59,11 +101,10 @@ h6,
   /* background-color: white; */
 }
 .parallax-title {
-  /* font-family: "Big Shoulders Stencil Text", cursive; */
   padding-top: 80px;
-  /* font-family: "Poppins", sans-serif; */
-  font-size: 40px;
+  font-size: 20px;
   color: black;
+  letter-spacing: 0.2em;
   /* color: white; */
   /* color: #2a2a2a; */
   /* -webkit-text-stroke: 2px white; */
@@ -195,7 +236,6 @@ h6,
 }
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
   font-size: 20px;
-  /* font-family: "Quicksand", Arial, sans-serif; */
   font-weight: 500;
 }
 .timeline-centered
@@ -218,16 +258,27 @@ h6,
   margin-left: 29px;
 }
 /* Education */
-
+.panel-title {
+  font-size: 20px;
+}
 /* footer */
+#footer-url {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
 .footer-link {
   font-size: 16px;
 }
 .footer-link:hover {
-  color: white;
+  color: #0a0a0a;
 }
 .footer-social-icon:hover {
-  color: white;
+  color: #0a0a0a;
   text-decoration: none;
 }
 .footer-social-icon i {
@@ -235,21 +286,48 @@ h6,
   text-decoration: none;
 }
 .footer-social-icon i:hover {
-  color: white;
+  color: #0a0a0a;
   text-decoration: none;
 }
+.footer-copyright {
+  font-size: 12px;
+}
+.footer-link-copyright {
+  font-size: 12px;
+}
 /* go top button */
+#facebook-icon {
+  width: 50px;
+  position: fixed;
+  top: 150px;
+  right: 15px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
+#line-icon {
+  width: 50px;
+  position: fixed;
+  top: 200px;
+  right: 15px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
 #goTop {
   width: 50px;
   display: none;
   position: fixed;
   bottom: 20px;
-  right: 30px;
+  right: 15px;
   z-index: 99;
   border: none;
   outline: none;
   cursor: pointer;
-  border: 1px solid white;
   border-radius: 50%;
 }
 

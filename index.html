@@ -2,44 +2,38 @@
 <html lang="en">
 
 <head>
-  <title>Frank Nattapol</title>
+  <title>Nattapol Boonmatan</title>
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
   <!-- Bootstrap CSS -->
-  <link rel="shortcut icon" type="image/x-icon" href="F.png" />
-  <link href="node_modules\bootstrap\dist\css\bootstrap.min.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-  <!-- <link href="node_modules\font-awesome\css\font-awesome.min.css" rel="stylesheet" /> -->
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@900&family=Josefin+Sans:wght@500&display=swap"
-    rel="stylesheet"> -->
-  <link href="css\style.css" rel="stylesheet" />
-  <link href="node_modules\aos\dist\aos.css" rel="stylesheet" />
-  <link href="node_modules\jquery-animated-headlines\dist\css\jquery.animatedheadline.css" rel="stylesheet" />
-  <!-- <link href="https://fonts.googleapis.com/css2?family=K2D:wght@500&display=swap" rel="stylesheet" /> -->
-  <link rel="stylesheet" href="node_modules\owl.carousel\assets\owl.carousel.min.css" />
-  <link rel="stylesheet" href="node_modules\owl.carousel\assets\owl.theme.default.min.css">
-  <link rel="stylesheet" href="node_modules\@fortawesome\fontawesome-free\css\all.min.css" />
-  <link rel="stylesheet" href="node_modules\PhotoSwipe-master\dist\photoswipe.css" />
-  <link rel="stylesheet" href="node_modules\PhotoSwipe-master\dist\default-skin\default-skin.css" />
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet"> -->
-  <style>
-    .img-item {
-      width: 250px;
-      height: 215px;
-    }
-  </style>
+  <link rel="shortcut icon" type="image/x-icon" href="icon.png" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/aos/aos.css">
+  <link rel="stylesheet" href="css/jquery.animatedheadline.css">
+  <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="css/photoswipe/photoswipe.css">
+  <link rel="stylesheet" href="css/photoswipe/default-skin/default-skin.css">
 </head>
 
 <body>
   <!-- ======= Navbar ======= -->
   <header>
-    <nav class="navbar navbar-expand-sm navbar-dark">
-      <div class="ah1">
+    <div class="container-fluid">
+      <a class="row justify-content-center pt-2" style="width:auto; background-color: white;">
+        <img class="" style="width: 140px; height: 80px;" src="images/logo.png" alt="">
+      </a>
+    </div>
+   
+    <nav class="navbar navbar-expand-lg">
+      <div class="ah1 ml-0">
         <a class="navbar-brand ah-headline" href="index.html">
           <span class="ah-words-wrapper">
             <b class="is-visible">My Portfolio</b>
@@ -47,15 +41,22 @@
           </span>
         </a>
       </div>
-      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
-        aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
+
+      <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-bar bar1"></span>
+        <span class="navbar-toggler-bar bar2"></span>
+        <span class="navbar-toggler-bar bar3"></span>
+      </button>
+        
       <div class="collapse navbar-collapse" id="collapsibleNavId">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true"
               aria-expanded="false">Portfolio</a>
             <div class="dropdown-menu" aria-labelledby="dropdownId">
               <a class="dropdown-item smooth-scroll" href="#artworks">Artwork</a>
+              <a class="dropdown-item smooth-scroll" href="#photographys">Photography</a>
               <a class="dropdown-item smooth-scroll" href="#vdos">Video</a>
             </div>
           </li>
@@ -63,10 +64,19 @@
             <a class="nav-link smooth-scroll" href="#abouts">About</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link smooth-scroll" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link smooth-scroll" href="#exps">Experiences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link smooth-scroll" href="#edus">Educations</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link smooth-scroll" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link smooth-scroll" href="#">Contact</a>
+            <a class="nav-link smooth-scroll" href="#footer">Contact</a>
           </li>
         </ul>
       </div>
@@ -85,186 +95,404 @@
   <section class="section site-portfolio">
     <div class="container container-port">
       <div class="row justify-content-center">
-        <div class="col-12">
-          <div class="artwork-owl owl-carousel my-gallery pt-3">
+        <div class="col-12 text-center">
+          <div class="artwork-owl owl-carousel owl-theme my-gallery pt-3">
 
-            <a href="images\design\artwork\a-1.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
+            <a href="images/design/artwork/a-1.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1500x1500">
-              <img src="images\design\artwork\a-1.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork-thumbnail/a-1-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
-            <a href="images\design\artwork\a-2.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
+            <a href="images/design/artwork/a-2.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1500x1500">
-              <img src="images\design\artwork\a-2.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork-thumbnail/a-2-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
-            <a href="images\design\artwork\a-3.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
+            <a href="images/design/artwork/a-3.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1500x1500">
-              <img src="images\design\artwork\a-3.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork-thumbnail/a-3-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
-            <a href="images\design\artwork\a-4.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
+            <a href="images/design/artwork/a-4.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1500x1500">
-              <img src="images\design\artwork\a-4.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork-thumbnail/a-4-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
-            <a href="images\design\artwork\a-5.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
+            <a href="images/design/artwork/a-5.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="2480x3508">
-              <img src="images\design\artwork\a-5.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork-thumbnail/a-5-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
-            <a href="images\design\artwork\a-6.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
+            <a href="images/design/artwork/a-6.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="960x1200">
-              <img src="images\design\artwork\a-6.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork-thumbnail/a-6-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
           </div>
 
-          <div class="artwork-owl owl-carousel my-gallery">
-            <a href="images\design\artwork\r-1.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
+          <div class="artwork-owl owl-carousel owl-theme my-gallery">
+
+            <a href="images/design/artwork/r-1.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1500x1500">
-              <img src="images\design\artwork\r-1.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork-thumbnail/r-1-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
-            <a href="images\design\artwork\r-2.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
+            <a href="images/design/artwork/r-2.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1500x1500">
-              <img src="images\design\artwork\r-2.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork-thumbnail/r-2-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
-          </div>
 
-          <div class="artwork-owl owl-carousel my-gallery">
-            <a href="images\design\artwork\s-1.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
+            <a href="images/design/artwork/s-1.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="2400x1600">
-              <img src="images\design\artwork\s-1.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork-thumbnail/s-1-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
-            <a href="images\design\artwork\s-2.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
+            <a href="images/design/artwork/s-2.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="2400x1600">
-              <img src="images\design\artwork\s-2.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork-thumbnail/s-2-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
-            <a href="images\design\artwork\s-3.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
+            <a href="images/design/artwork/s-3.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1199x1200">
-              <img src="images\design\artwork\s-3.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork-thumbnail/s-3-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
-            <a href="images\design\artwork\s-4.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
+            <a href="images/design/artwork/s-4.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1080x1080">
-              <img src="images\design\artwork\s-4.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork-thumbnail/s-4-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
-            <a href="images\design\artwork\s-5.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
+            <a href="images/design/artwork/s-5.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1200x1200">
-              <img src="images\design\artwork\s-5.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork-thumbnail/s-5-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
-            <a href="images\design\artwork\s-6.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
+            <a href="images/design/artwork/s-6.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1200x1200">
-              <img src="images\design\artwork\s-6.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork-thumbnail/s-6-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
           </div>
 
-          <div class="artwork-owl owl-carousel my-gallery">
-            <a href="images\design\artwork\t-1.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
+          <div class="artwork-owl owl-carousel owl-theme my-gallery">
+            <a href="images/design/artwork/t-1.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="960x960">
-              <img src="images\design\artwork\t-1.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork-thumbnail/t-1-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
-            <a href="images\design\artwork\t-2.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
+            <a href="images/design/artwork/t-2.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="960x960">
-              <img src="images\design\artwork\t-2.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork-thumbnail/t-2-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
-            <a href="images\design\artwork\t-3.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
+            <a href="images/design/artwork/t-3.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1200x960">
-              <img src="images\design\artwork\t-3.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork-thumbnail/t-3-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
-            <a href="images\design\artwork\t-4.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
+            <a href="images/design/artwork/t-4.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="960x960">
-              <img src="images\design\artwork\t-4.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork-thumbnail/t-4-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
-            <a href="images\design\artwork\t-5.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
+            <a href="images/design/artwork/t-5.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="960x960">
-              <img src="images\design\artwork\t-5.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork-thumbnail/t-5-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
+
+            <a href="images/design/artwork/t-6.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="960x960">
+              <img src="images/design/artwork-thumbnail/t-6-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/design/artwork/t-7.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="960x960">
+              <img src="images/design/artwork-thumbnail/t-7-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/design/artwork/t-8.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="960x960">
+              <img src="images/design/artwork-thumbnail/t-8-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/design/artwork/t-9.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="960x960">
+              <img src="images/design/artwork-thumbnail/t-9-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
           </div>
 
-          <div class="artwork-owl owl-carousel my-gallery">
-            <a href="images\design\artwork\v-1.png" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
+          <div class="artwork-owl owl-carousel owl-theme my-gallery">
+            <a href="images/design/artwork/v-1.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1920x1080">
-              <img src="images\design\artwork\v-1.png" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork-thumbnail/v-1-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
-            <a href="images\design\artwork\v-2.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
+            <a href="images/design/artwork/v-2.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="1920x1080">
-              <img src="images\design\artwork\v-2.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork-thumbnail/v-2-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
-            <a href="images\design\artwork\v-3.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
+            <a href="images/design/artwork/v-3.jpg" class="item-wrap fancybox" itemprop="contentUrl"
               data-size="2000x800">
-              <img src="images\design\artwork\v-3.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+              <img src="images/design/artwork-thumbnail/v-3-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
+
+            <a href="images/design/artwork/v-4.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="1500x1500">
+              <img src="images/design/artwork-thumbnail/v-4-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/design/artwork/z-1.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="960x960">
+              <img src="images/design/artwork-thumbnail/z-1-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/design/artwork/z-2.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="960x960">
+              <img src="images/design/artwork-thumbnail/z-2-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/design/artwork/z-3.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="1500x1500">
+              <img src="images/design/artwork-thumbnail/z-3-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/design/artwork/z-4.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="1500x1500">
+              <img src="images/design/artwork-thumbnail/z-4-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/design/artwork/z-5.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="1500x1500">
+              <img src="images/design/artwork-thumbnail/z-5-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/design/artwork/z-6.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="1500x1000">
+              <img src="images/design/artwork-thumbnail/z-6-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/design/artwork/z-7.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="1500x1500">
+              <img src="images/design/artwork-thumbnail/z-7-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/design/artwork/z-8.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="1500x1500">
+              <img src="images/design/artwork-thumbnail/z-8-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/design/artwork/z-9.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="3508x4961">
+              <img src="images/design/artwork-thumbnail/z-9-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/design/artwork/z-10.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="3508x4961">
+              <img src="images/design/artwork-thumbnail/z-10-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/design/artwork/z-11.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="3508x4961">
+              <img src="images/design/artwork-thumbnail/z-11-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+          </div>
+          <a href="https://drive.google.com/drive/folders/1HW_OrRb5nFJ3REEaYcmuiFXh66OpOH0o" target="_blank"
+              class="text-center btn btn-dark"> More Portfolio</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Photography Banner -->
+  <div id="main_art_bg" class="parallaxie">
+    <h1 class="parallax-title text-center" id="photographys" style=" z-index: 1000;"><b>PHOTOGRAPHY</b></h1>
+    <div id="photo-parallax" class="parallaxie"
+      data-parallaxie='{"size": "cover", "pos_x":"center", "speed":0.4, "offset":0}'>
+    </div>
+  </div>
+  
+  <!-- แสดงผลงานการถ่ายรูป -->
+  <section class="section site-portfolio">
+    <div class="container container-port">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <div class="photography-owl owl-carousel owl-theme my-gallery pt-3">
+
+            <a href="images/photography/general/P-1.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="2480x1748">
+              <img src="images/photography/general/P-1-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/photography/general/P-2.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="2480x1748">
+              <img src="images/photography/general/P-2-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/photography/general/P-3.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="2480x1748">
+              <img src="images/photography/general/P-3-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/photography/general/P-4.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="2480x1748">
+              <img src="images/photography/general/P-4-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/photography/general/P-5.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="2480x1748">
+              <img src="images/photography/general/P-5-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/photography/general/P-6.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="2480x1748">
+              <img src="images/photography/general/P-6-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/photography/general/P-7.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="2480x1748">
+              <img src="images/photography/general/P-7-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/photography/general/P-8.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="2480x1748">
+              <img src="images/photography/general/P-8-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/photography/general/P-9.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="2480x1748">
+              <img src="images/photography/general/P-9-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/photography/general/P-10.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="2480x1748">
+              <img src="images/photography/general/P-10-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
           </div>
 
-          <div class="artwork-owl owl-carousel my-gallery">
-            <a href="images\design\artwork\z-1.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
-              data-size="960x960">
-              <img src="images\design\artwork\z-1.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+          <div class="photography-owl owl-carousel owl-theme my-gallery">
+
+            <a href="images/photography/caremony/r-1.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="4000x6000">
+              <img src="images/photography/caremony/r-1-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
-            <a href="images\design\artwork\z-2.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
-              data-size="960x960">
-              <img src="images\design\artwork\z-2.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+            <a href="images/photography/caremony/r-2.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="3915x5872">
+              <img src="images/photography/caremony/r-2-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
-            <a href="images\design\artwork\z-3.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
-              data-size="1500x1500">
-              <img src="images\design\artwork\z-3.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+            <a href="images/photography/caremony/r-3.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="4000x6000">
+              <img src="images/photography/caremony/r-3-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
-            <a href="images\design\artwork\z-4.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
-              data-size="1500x1500">
-              <img src="images\design\artwork\z-4.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+            <a href="images/photography/caremony/r-4.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="3843x5764">
+              <img src="images/photography/caremony/r-4-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
-            <a href="images\design\artwork\z-5.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
-              data-size="1500x1500">
-              <img src="images\design\artwork\z-5.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+            <a href="images/photography/caremony/r-5.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="3825x5737">
+              <img src="images/photography/caremony/r-5-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
 
-            <a href="images\design\artwork\z-6.jpg" loading="lazy" class="item-wrap fancybox" itemprop="contentUrl"
-              data-size="1500x1000">
-              <img src="images\design\artwork\z-6.jpg" loading="lazy" class="img-fluid thumbnail-box img-item"
+            <a href="images/photography/caremony/r-6.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="3825x5737">
+              <img src="images/photography/caremony/r-6-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
                 itemprop="thumbnail" alt="Image description" />
             </a>
+
+            <a href="images/photography/caremony/r-7.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="3937x5906">
+              <img src="images/photography/caremony/r-7-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/photography/caremony/r-8.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="5795x3260">
+              <img src="images/photography/caremony/r-8-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/photography/caremony/r-9.jpg" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="5795x3260">
+              <img src="images/photography/caremony/r-9-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/photography/caremony/r-10.JPG" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="2048x1365">
+              <img src="images/photography/caremony/r-10-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/photography/caremony/r-11.JPG" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="1365x2048">
+              <img src="images/photography/caremony/r-11-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
+            <a href="images/photography/caremony/r-12.JPG" class="item-wrap fancybox" itemprop="contentUrl"
+              data-size="2048x1365">
+              <img src="images/photography/caremony/r-12-thumbnail.jpg" loading="lazy" width="214" height="214" class="img-fluid thumbnail-box"
+                itemprop="thumbnail" alt="Image description" />
+            </a>
+
           </div>
         </div>
       </div>
@@ -283,36 +511,35 @@
   <section class="section site-portfolio">
     <div class="container  container-port">
       <div class="row no-gutter justify-content-center" data-aos="fade-up" data-aos-delay="200">
-        <!-- <div class="col-sm-6 col-md-6 col-lg-5 mb-4">
-          <a><img class="img-fluid z-depth-1" src="https://mdbootstrap.com/img/screens/yt/screen-video-1.jpg"
-              alt="video" data-toggle="modal" data-target="#modal1"></a>
-        </div> -->
 
-        <!-- ฮักแพงกันเด้อ (รถแห่) - เต๋า ภูศิลป์【TEASER】 -->
         <div class="col-sm-6 col-md-5 col-lg-5 mb-4 mt-4 embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uFetv2AGvoU"
             allowfullscreen></iframe>
         </div>
-        <!-- ตัวคั่น -->
+        
         <div class="col-sm-6 col-md-1 col-lg-1 mb-4 mt-4">
         </div>
-        <!-- แล้วไผสิฮักอ้าย - เน็ค นฤพล【Teaser】 -->
+
         <div class="col-sm-6 col-md-5 col-lg-5 mb-4 mt-4 embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/M2oPjg1nXrU"
             allowfullscreen></iframe>
         </div>
-        <!-- ถ้าไม่ซื้อกุหลาบจะซื้ออะไรให้คนรัก - เต๋า ภูศิลป์【Special Clip】 -->
+
         <div class="col-sm-6 col-md-5 col-lg-5 mb-4 embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/wn6f8Ntns8M"
             allowfullscreen></iframe>
         </div>
-        <!-- ตัวคั่น -->
+
         <div class="col-sm-6 col-md-1 col-lg-1 mb-4 ">
         </div>
-        <!-- เบื้องหลังการถ่ายทำ MV ซื้อกุหลาบให้เจ้าของ - เต๋า ภูศิลป์ -->
+
         <div class="col-sm-6 col-md-5 col-lg-5 mb-4 embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8g952p7zFqs"
             allowfullscreen></iframe>
+        </div>
+        <div class="col-12 text-center mt-3">
+          <a href="https://drive.google.com/drive/folders/17F12wQHX8vhFeGWPRvMWKIRPTE3e8Y-t" target="_blank"
+              class="text-center btn btn-dark"> More Portfolio</a>
         </div>
       </div>
 
@@ -326,24 +553,25 @@
       data-parallaxie='{"size": "cover", "pos_x":"center", "speed":0.4, "offset":0}'>
     </div>
   </div>
+
   <!-- About me -->
   <section class="section" id="about">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-11 col-md-6 col-xl-3 pb-3">
-          <img src="images/frank.jpg" id="img-about" class="img-fluid" style=" border-radius: 50%;" alt="">
+        <div class="col-11 col-md-6 col-xl-3 pb-3 about-carousel owl-carousel">
+          <img src="images/frank1.jpg" loading="lazy" width="480" height="480" class="img-fluid" style=" border-radius: 50%;" alt="">
+          <img src="images/frank2.jpg" loading="lazy" width="480" height="480" class="img-fluid" style=" border-radius: 50%;" alt="">
+          <img src="images/frank3.jpg" loading="lazy" width="480" height="480" class="img-fluid" style=" border-radius: 50%;" alt="">
+          <img src="images/frank4.jpg" loading="lazy" width="480" height="480" class="img-fluid" style=" border-radius: 50%;" alt="">
         </div>
         <div class="col-11 col-md-11 col-xl-8" id="about-detail">
-          <h1 class="mt-3 ml-3" style="font-size: 40px;">สวัสดีครับ !</h1>
-          <h4 class="ml-5" style="font-size:20px;">ผมชื่อ ณัฐพล บุญมาทัน</h4>
+          <h1 class="mt-3 ml-3" style="font-size: 40px;">Hello ! </h1>
+          <h4 class="ml-5" style="font-size:20px;">I'm Nattapol Boonmatan</h4>
           <p class="ml-5">
-            ผมมีความประสงค์จะใช้ความสามารถทางด้าน Graphic design ด้วยความตั้งใจและความละเอียดรอบคอบ กระตือรืนร้น
-            และรับผิดชอบงานเป็นอย่างดี ซึ่งจะช่วยให้ตัวของผมประสบความสำเร็จ รวมทั้งองค์กรก็จะประสบความสำเร็จ
-            ตามเป้าหมายที่วางไว้
+            Having energetic and responsible, fast learning and continual improvement.
           </p>
           <div class="about-button d-flex justify-content-center mt-5 mb-3">
-            <a href="file\resume.pdf" target="_blank" class="btn btn-primary justify-content-center">ดาวน์โหลด
-              เรซูเม่</a>
+            <a href="file/resume.pdf" target="_blank" class="btn btn-dark justify-content-center">Download Resume</a>
           </div>
         </div>
       </div>
@@ -364,22 +592,22 @@
   <div class="container">
     <div class="skill-carousel owl-carousel owl-reponsive">
       <div class="skill-box justify-content-center d-flex">
-        <img src="images/skill-icon/ae.png" class="skill-img" alt="">
+        <img src="images/skill-icon/ae80x80.png" loading="lazy" width="80" height="80" class="skill-img" alt="">
       </div>
       <div class="skill-box  justify-content-center d-flex">
-        <img src="images/skill-icon/ai.png" class="skill-img" alt="">
+        <img src="images/skill-icon/ai80x80.png" loading="lazy" width="80" height="80" class="skill-img" alt="">
       </div>
       <div class="skill-box justify-content-center d-flex">
-        <img src="images/skill-icon/ps.png" class="skill-img" alt="">
+        <img src="images/skill-icon/ps80x80.png" loading="lazy" width="80" height="80" class="skill-img" alt="">
       </div>
       <div class="skill-box justify-content-center d-flex">
-        <img src="images/skill-icon/pr.png" class="skill-img" alt="">
+        <img src="images/skill-icon/pr80x80.png" loading="lazy" width="80" height="80" class="skill-img" alt="">
       </div>
       <div class="skill-box justify-content-center d-flex">
-        <img src="images/skill-icon/id.png" class="skill-img" alt="">
+        <img src="images/skill-icon/id80x80.png" loading="lazy" width="80" height="80" class="skill-img" alt="">
       </div>
       <div class="skill-box justify-content-center d-flex">
-        <img src="images/skill-icon/lr.png" class="skill-img" alt="">
+        <img src="images/skill-icon/lr80x80.png" loading="lazy" width="80" height="80" class="skill-img" alt="">
       </div>
     </div>
   </div>
@@ -391,6 +619,7 @@
       data-parallaxie='{"size": "cover", "pos_x":"center", "speed":0.4, "offset":0}'>
     </div>
   </div>
+
   <section class="section">
     <div class="container">
       <div class="row">
@@ -404,12 +633,13 @@
                 <div class="timeline-label">
                   <h2>
                     <span>Graphic Designer At</span>
-                    <a class="text-danger">Sunthon Rungroj Unity Company Limited</a>
+                    <a class="text-secondary">Sunthon Rungroj Unity Company Limited</a>
                     <span>Jul 2020 - Nov 2020</span>
                   </h2>
-                  <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how
-                    cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth
-                    chief trees but rooms think may.
+                  <p>
+                    <ul>
+                      <li> Designed Banner, Edited video product for platform online (Facebook, Instagram, Shopee , Lazada etc.)</li>
+                    </ul>
                   </p>
                 </div>
               </div>
@@ -422,12 +652,13 @@
                 <div class="timeline-label">
                   <h2>
                     <span>Graphic Designer At</span>
-                    <a class="text-danger">PPN Beverage Company Limited</a>
+                    <a class="text-secondary">PPN Beverage Company Limited</a>
                     <span>Aug 2019 - Nov 2019</span>
                   </h2>
-                  <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how
-                    cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth
-                    chief trees but rooms think may.
+                  <p>
+                    <ul>
+                      <li> Designed packaging and sticker</li>
+                    </ul>
                   </p>
                 </div>
               </div>
@@ -440,14 +671,18 @@
                 <div class="timeline-label">
                   <h2>
                     <span>Creative Online & Video Editor At</span>
-                    <a class="text-danger" target="_blank" href="http://www.gmmgrammy.com/th/index.html">
-                      GMM Grammy Plubic Company Limited
+                    <a class="text-secondary" target="_blank" href="http://www.gmmgrammy.com/th/index.html">
+                      GMM Grammy Plubic Company Limited 
                     </a>
                     <span>Nov 2018 - Apr 2019</span>
                   </h2>
-                  <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how
-                    cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth
-                    chief trees but rooms think may.
+                  <p>
+                    (Cooperative Education)
+                    <ul>
+                      <li> Designed Banner, Standee etc.</li>
+                      <li> Music video edited for Grammy-gold</li>
+                      <li> Made a clip on YouTube for promoted  music video on Valentine's day</li>
+                    </ul>
                   </p>
                 </div>
               </div>
@@ -460,15 +695,15 @@
 
 
   <!-- Education Parallax Banner -->
-  <!-- <div id="main_edu_bg" class="parallaxie">
-    <h1 id="edu" class="parallax-title text-center" style=" z-index: 1000;"><b>Education</b></h1>
+  <div id="main_edu_bg" class="parallaxie">
+    <h1 id="edus" class="parallax-title text-center" style=" z-index: 1000;"><b>Education</b></h1>
     <div id="vdo-parallax" class="parallaxie"
       data-parallaxie='{"size": "cover", "pos_x":"center", "speed":0.4, "offset":0}'>
     </div>
-  </div> -->
+  </div>
 
   <!-- Education -->
-  <!-- <section class="section">
+  <section class="section">
     <div class="container">
       <div class="row">
         <div class="col-md-12 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
@@ -485,16 +720,19 @@
                 <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne"
                   aria-expanded="false" style="height: 0px;">
                   <div class="panel-body">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                          there live the blind texts. </p>
-                      </div>
-                      <div class="col-md-6">
-                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
-                          ocean.</p>
-                      </div>
-                    </div>
+                    <p>
+                      <b>
+                        RAJAMANGALA UNIVERSITY OF TECHNOLOGY RATTANAKOSIN UNIVERSITY
+                      </b>
+                    </p>
+                    <p>
+                      Attend in 2015. Department of Business Information Technology, Major of Multimedia Innovation. Graduated in March 2019. GPA 2.93
+                    </p>
+                    <ul>
+                      <li>Created instructional media 
+                        about the time of primary school grades 4-6, Wat Thung Si Long School
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -502,20 +740,22 @@
                 <div class="panel-heading" role="tab" id="headingTwo">
                   <h4 class="panel-title">
                     <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
-                      aria-expanded="false" aria-controls="collapseTwo">Bachelor Degree of Computer Science
+                      aria-expanded="false" aria-controls="collapseTwo">High School - Sciences and Mathematics Program
                     </a>
                   </h4>
                 </div>
                 <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo"
                   aria-expanded="false" style="height: 0px;">
                   <div class="panel-body">
-                    <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and
-                      Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast
-                      of the Semantics, a large language ocean.</p>
-                    <ul>
-                      <li>Separated they live in Bookmarksgrove right</li>
-                      <li>Separated they live in Bookmarksgrove right</li>
-                    </ul>
+                    <p>
+                      <b>
+                        KONGTHONG WITTAYA SCHOOL
+                      </b>
+                    </p>
+                    <p>
+                      Attend in 2012. Graduated in March 2015.
+                    </p>
+
                   </div>
                 </div>
               </div>
@@ -524,7 +764,7 @@
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
 
   <!-- Service Parallax Banner -->
   <div id="main_service_bg" class="parallaxie">
@@ -539,7 +779,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 text-center d-flex fadeInUp">
-          <a href="#" class="services-box">
+          <a class="services-box">
             <span class="icon">
               <i class="fas fa-images" style="font-size: 60px;" aria-hidden="true"></i>
             </span>
@@ -549,7 +789,7 @@
           </a>
         </div>
         <div class="col-md-4 text-center d-flex fadeInUp">
-          <a href="#" class="services-box">
+          <a class="services-box">
             <span class="icon">
               <i class="fas fa-photo-video" style="font-size: 60px;" aria-hidden="true"></i>
             </span>
@@ -559,7 +799,7 @@
           </a>
         </div>
         <div class="col-md-4 text-center d-flex fadeInUp">
-          <a href="#" class="services-box">
+          <a class="services-box">
             <span class="icon">
               <i class="fas fa-camera-retro" style="font-size: 60px;" aria-hidden="true"></i>
             </span>
@@ -573,18 +813,11 @@
   </section>
 
   <!-- Footer -->
-  <footer class="page-footer font-small indigo">
+  <footer class="page-footer font-small indigo" id="footer">
     <!-- Footer Links -->
     <div class="container">
       <!-- Grid row-->
-      <div class="row text-center d-flex justify-content-center pt-5 mb-3">
-        <!-- Grid column -->
-        <div class="col-md-2 mb-3">
-          <h6 class="text-uppercase font-weight-bold">
-            <a class="footer-link" href="#abouts">HOME</a>
-          </h6>
-        </div>
-        <!-- Grid column -->
+      <div class="row text-center d-flex justify-content-center pt-5 mb-3" id="footer-url">
 
         <!-- Grid column -->
         <div class="col-md-2 mb-3">
@@ -625,13 +858,6 @@
       <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
         <!-- Grid column -->
         <div class="col-md-8 col-12 mt-5">
-          <p style="line-height: 1.7rem">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur.
-          </p>
         </div>
         <!-- Grid column -->
       </div>
@@ -654,6 +880,12 @@
             <a class="footer-social-icon" href="https://www.instagram.com/frank.yy/" target="_blank">
               <i class="fab fa-instagram mr-4" aria-hidden="true"></i>
             </a>
+            <a class="footer-social-icon" href="mailto:nattapol.fbo@gmail.com" target="_blank">
+              <i class="fas fa-envelope mr-4" aria-hidden="true"></i>
+            </a>
+            <a class="footer-social-icon" href="tel://+66928488669" target="_blank">
+              <i class="fas fa-mobile-alt mr-4" aria-hidden="true"></i>
+            </a>
           </div>
         </div>
         <!-- Grid column -->
@@ -664,40 +896,34 @@
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">
-      © 2020 Copyright:
-      <a class="footer-link" href="#"> Frank Nattapol</a>
+      © Copyright:
+      <a class="footer-link-copyright" href="#"> Frank Nattapol</a>
       </br>
       Designed By
-      <a class="footer-link" target="_blank" href="https://github.com/RepriseCoding"> RepriseCoding</a>
+      <a class="footer-link-copyright" target="_blank" href="https://github.com/RepriseCoding"> RepriseCoding</a>
     </div>
     <!-- Copyright -->
   </footer>
   <!-- Footer -->
 
-
-
   <!-- GO TOP BUTTON -->
-  <img src="images/go_top_icon.png" onclick="topFunction()" id="goTop" title="Go to top" />
+  <img src="images/go_top_icon.png" onclick="topFunction()" loding="lazy" width="50" height="50" id="goTop" title="Go to top" />
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <!-- <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script> -->
-  <script src="node_modules\jquery\dist\jquery.min.js"></script>
-  <script src="node_modules\@popperjs\core\dist\umd\popper.min.js"></script>
-  <script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
-  <script src="node_modules\aos\dist\aos.js"></script>
-  <script src="node_modules\jquery-animated-headlines\dist\js\jquery.animatedheadline.min.js"></script>
-  <script src="node_modules\jquery.easing\jquery.easing.min.js"></script>
-  <script src="node_modules\isotope-layout\isotope.pkgd.min.js"></script>
-  <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js'></script> -->
-  <script src="node_modules\owl.carousel\owl.carousel.min.js"></script>
-  <script src="node_modules\PhotoSwipe-master\dist\photoswipe.min.js"></script>
-  <script src="node_modules\PhotoSwipe-master\dist\photoswipe-ui-default.min.js"></script>
-  <script src="node_modules\parallaxie\parallaxie.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animatedheadline.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/photoswipe.min.js"></script>
+  <script src="js/photoswipe-ui-default.min.js"></script>
 
 
   <!-- Use Function Script -->
   <script>
-    $('.parallaxie').parallaxie();
     $('.artwork-owl').owlCarousel({
       center: false,
       loop: false,
@@ -714,10 +940,63 @@
           items: 1
         },
         720: {
-          items: 5
+          items: 3
         },
         1000: {
           items: 5
+        }
+      }
+    })
+    $('.photography-owl').owlCarousel({
+      center: false,
+      loop: true,
+      margin: 10,
+      nav: false,
+      pagination: false,
+      autoplay: true,
+      autoplayTimeout: 5000,
+      autoplayHoverPause: true,
+      autowidth: false,
+      itemElement: 'figure',
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 1
+        },
+        720: {
+          items: 3
+        },
+        1000: {
+          items: 5
+        }
+      }
+    })
+    $('.about-carousel').owlCarousel({
+      center: false,
+      loop: true,
+      margin: 0,
+      nav: false,
+      pagination: false,
+      autoplay: true,
+      autoplayTimeout: 2000,
+      autoplayHoverPause: true,
+      animateOut: 'fadeOut',
+      responsive: {
+        0: {
+          items: 1,
+          margin: 20,
+        },
+        600: {
+          items: 1,
+          margin: 20,
+        },
+        720: {
+          items: 1
+        },
+        1000: {
+          items: 1
         }
       }
     })
@@ -749,7 +1028,7 @@
 
   </script>
   <!-- <script src="js/script.js"></script> -->
-  <script src="js\main.js"></script>
+  <script src="js/main.js"></script>
   <!-- PhotoSwipe Element DOM -->
   <!-- Root element of PhotoSwipe. Must have class pswp. -->
   <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">

@@ -50,11 +50,26 @@ $(document).ready(function () {
   });
   //Get the button
   var gototop = document.getElementById("goTop");
-  
+  var facebookicon = document.getElementById("facebook-icon");
+
+
   // When the user scrolls down 20px from the top of the document, show the button
   window.onscroll = function () {
     scrollFunction();
+    // facebookIconFunction();
   };
+
+  // function facebookIconFunction(){
+  //   if (
+  //     document.body.scrollTop > 0 ||
+  //     document.documentElement.scrollTop > 100
+  //   ) {
+  //     facebookicon.style.display = "block";
+  //   } else {
+  //     facebookicon.style.display = "none";
+  //   }
+  // }
+  
   
   function scrollFunction() {
     if (
@@ -72,6 +87,8 @@ $(document).ready(function () {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   }
+
+
   $(function () {
     $(".ah1").animatedHeadline({
       animationType: "rotate-1",
