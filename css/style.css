@@ -97,12 +97,12 @@ img.img {
 }
 /* Parallaxie */
 .parallaxie {
-  padding-bottom: 40px;
+  padding-bottom: 15px;
   /* background-color: white; */
 }
 .parallax-title {
   padding-top: 80px;
-  font-size: 20px;
+  font-size: 24px;
   color: black;
   letter-spacing: 0.2em;
   /* color: white; */
@@ -258,8 +258,21 @@ img.img {
   margin-left: 29px;
 }
 /* Education */
-.panel-title {
+.edu-panel-title {
   font-size: 20px;
+}
+.edu-panel-title > a:hover {
+  color: #bcbcbc;
+}
+.edu-panel-heading {
+  background-color: #0a0a0a;
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 10px 0px 2px 20px;
+}
+.edu-panel-body {
+  margin-top: 10px;
+  padding-left: 30px;
 }
 /* footer */
 #footer-url {

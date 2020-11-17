@@ -70,7 +70,7 @@
             <a class="nav-link smooth-scroll" href="#exps">Experiences</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link smooth-scroll" href="#edus">Educations</a>
+            <a class="nav-link smooth-scroll" href="#edus">Education</a>
           </li>
           <li class="nav-item">
             <a class="nav-link smooth-scroll" href="#services">Services</a>
@@ -343,7 +343,7 @@
   </section>
 
   <!-- Photography Banner -->
-  <div id="main_art_bg" class="parallaxie">
+  <div id="main_photo_bg" class="parallaxie">
     <h1 class="parallax-title text-center" id="photographys" style=" z-index: 1000;"><b>PHOTOGRAPHY</b></h1>
     <div id="photo-parallax" class="parallaxie"
       data-parallaxie='{"size": "cover", "pos_x":"center", "speed":0.4, "offset":0}'>
@@ -354,7 +354,7 @@
   <section class="section site-portfolio">
     <div class="container container-port">
       <div class="row justify-content-center">
-        <div class="col-12 text-center">
+        <div class="col-12 text-center" data-aos="fade-up" data-aos-once="false" data-aos-duration="700">
           <div class="photography-owl owl-carousel owl-theme my-gallery pt-3">
 
             <a href="images/photography/general/P-1.jpg" class="item-wrap fancybox" itemprop="contentUrl"
@@ -510,7 +510,7 @@
   <!------------------------ Video Portfolio ------------------------------------------>
   <section class="section site-portfolio">
     <div class="container  container-port">
-      <div class="row no-gutter justify-content-center" data-aos="fade-up" data-aos-delay="200">
+      <div class="row no-gutter justify-content-center" data-aos="fade-up" data-aos-once="false" data-aos-duration="700">
 
         <div class="col-sm-6 col-md-5 col-lg-5 mb-4 mt-4 embed-responsive embed-responsive-16by9">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uFetv2AGvoU"
@@ -555,7 +555,7 @@
   </div>
 
   <!-- About me -->
-  <section class="section" id="about">
+  <section class="section" id="about" data-aos="flip-left" data-aos-duration="2000" data-aos-once="false">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-11 col-md-6 col-xl-3 pb-3 about-carousel owl-carousel">
@@ -588,33 +588,37 @@
       data-parallaxie='{"size": "cover", "pos_x":"center", "speed":0.4, "offset":0}'>
     </div>
   </div>
+
   <!-- Skill -->
-  <div class="container">
-    <div class="skill-carousel owl-carousel owl-reponsive">
-      <div class="skill-box justify-content-center d-flex">
-        <img src="images/skill-icon/ae80x80.png" loading="lazy" width="80" height="80" class="skill-img" alt="">
-      </div>
-      <div class="skill-box  justify-content-center d-flex">
-        <img src="images/skill-icon/ai80x80.png" loading="lazy" width="80" height="80" class="skill-img" alt="">
-      </div>
-      <div class="skill-box justify-content-center d-flex">
-        <img src="images/skill-icon/ps80x80.png" loading="lazy" width="80" height="80" class="skill-img" alt="">
-      </div>
-      <div class="skill-box justify-content-center d-flex">
-        <img src="images/skill-icon/pr80x80.png" loading="lazy" width="80" height="80" class="skill-img" alt="">
-      </div>
-      <div class="skill-box justify-content-center d-flex">
-        <img src="images/skill-icon/id80x80.png" loading="lazy" width="80" height="80" class="skill-img" alt="">
-      </div>
-      <div class="skill-box justify-content-center d-flex">
-        <img src="images/skill-icon/lr80x80.png" loading="lazy" width="80" height="80" class="skill-img" alt="">
+  <section class="section">
+    <div class="container container-port mt-5" data-aos="fade-up" data-aos-once="false">
+      <div class="skill-carousel owl-carousel owl-reponsive">
+        <div class="skill-box justify-content-center d-flex">
+          <img src="images/skill-icon/ae80x80.png" loading="lazy" width="80" height="80" class="skill-img" alt="">
+        </div>
+        <div class="skill-box  justify-content-center d-flex">
+          <img src="images/skill-icon/ai80x80.png" loading="lazy" width="80" height="80" class="skill-img" alt="">
+        </div>
+        <div class="skill-box justify-content-center d-flex">
+          <img src="images/skill-icon/ps80x80.png" loading="lazy" width="80" height="80" class="skill-img" alt="">
+        </div>
+        <div class="skill-box justify-content-center d-flex">
+          <img src="images/skill-icon/pr80x80.png" loading="lazy" width="80" height="80" class="skill-img" alt="">
+        </div>
+        <div class="skill-box justify-content-center d-flex">
+          <img src="images/skill-icon/id80x80.png" loading="lazy" width="80" height="80" class="skill-img" alt="">
+        </div>
+        <div class="skill-box justify-content-center d-flex">
+          <img src="images/skill-icon/lr80x80.png" loading="lazy" width="80" height="80" class="skill-img" alt="">
+        </div>
       </div>
     </div>
-  </div>
+  </section>
+  
 
   <!-- Work EXP Parallax Banner -->
   <div id="main_exp_bg" class="parallaxie">
-    <h1 id="exps" class="parallax-title text-center" style=" z-index: 1000;"><b>Work Experience</b></h1>
+    <h1 id="exps" class="parallax-title text-center" style=" z-index: 1000;"><b>WORK EXPERIENCES</b></h1>
     <div id="vdo-parallax" class="parallaxie"
       data-parallaxie='{"size": "cover", "pos_x":"center", "speed":0.4, "offset":0}'>
     </div>
@@ -625,12 +629,12 @@
       <div class="row">
         <div class="col-md-12">
           <div class="timeline-centered">
-            <article class="timeline-entry animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+            <article class="timeline-entry animate-box fadeInLeft animated">
               <div class="timeline-entry-inner">
-                <div class="timeline-icon color-1">
+                <div class="timeline-icon color-1" data-aos="fade-right" data-aos-once="false" data-aos-duration="1000">
                   <i class="icon-pen2"></i>
                 </div>
-                <div class="timeline-label">
+                <div class="timeline-label" data-aos="fade-left" data-aos-once="false" data-aos-duration="1100">
                   <h2>
                     <span>Graphic Designer At</span>
                     <a class="text-secondary">Sunthon Rungroj Unity Company Limited</a>
@@ -646,10 +650,10 @@
             </article>
             <article class="timeline-entry animate-box fadeInRight animated" data-animate-effect="fadeInRight">
               <div class="timeline-entry-inner">
-                <div class="timeline-icon color-2">
+                <div class="timeline-icon color-2" data-aos="fade-right" data-aos-once="false" data-aos-duration="1150">
                   <i class="icon-pen2"></i>
                 </div>
-                <div class="timeline-label">
+                <div class="timeline-label" data-aos="fade-left" data-aos-once="false" data-aos-duration="1200">
                   <h2>
                     <span>Graphic Designer At</span>
                     <a class="text-secondary">PPN Beverage Company Limited</a>
@@ -665,10 +669,10 @@
             </article>
             <article class="timeline-entry animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
               <div class="timeline-entry-inner">
-                <div class="timeline-icon color-3">
+                <div class="timeline-icon color-3"  data-aos="fade-right" data-aos-once="false" data-aos-duration="1250">
                   <i class="icon-pen2"></i>
                 </div>
-                <div class="timeline-label">
+                <div class="timeline-label"  data-aos="fade-left" data-aos-once="false" data-aos-duration="1300">
                   <h2>
                     <span>Creative Online & Video Editor At</span>
                     <a class="text-secondary" target="_blank" href="http://www.gmmgrammy.com/th/index.html">
@@ -696,7 +700,7 @@
 
   <!-- Education Parallax Banner -->
   <div id="main_edu_bg" class="parallaxie">
-    <h1 id="edus" class="parallax-title text-center" style=" z-index: 1000;"><b>Education</b></h1>
+    <h1 id="edus" class="parallax-title text-center" style=" z-index: 1000;"><b>EDUCATION</b></h1>
     <div id="vdo-parallax" class="parallaxie"
       data-parallaxie='{"size": "cover", "pos_x":"center", "speed":0.4, "offset":0}'>
     </div>
@@ -706,12 +710,12 @@
   <section class="section">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
+        <div class="col-md-12 col-lg-8" data-animate-effect="fadeInLeft">
           <div class="fancy-collapse-panel">
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingOne">
-                  <h4 class="panel-title">
+              <div class="panel panel-default" data-aos="fade-right" data-aos-once="false" data-aos-duration="700">
+                <div class="edu-panel-heading" role="tab" id="headingOne">
+                  <h4 class="edu-panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false"
                       aria-controls="collapseOne" class="collapsed">Bachelor Degree of Bussiness Administrator
                     </a>
@@ -719,7 +723,7 @@
                 </div>
                 <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne"
                   aria-expanded="false" style="height: 0px;">
-                  <div class="panel-body">
+                  <div class="edu-panel-body">
                     <p>
                       <b>
                         RAJAMANGALA UNIVERSITY OF TECHNOLOGY RATTANAKOSIN UNIVERSITY
@@ -736,9 +740,9 @@
                   </div>
                 </div>
               </div>
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingTwo">
-                  <h4 class="panel-title">
+              <div class="panel panel-default" data-aos="fade-left" data-aos-once="false" data-aos-duration="800">
+                <div class="edu-panel-heading" role="tab" id="headingTwo">
+                  <h4 class="edu-panel-title">
                     <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
                       aria-expanded="false" aria-controls="collapseTwo">High School - Sciences and Mathematics Program
                     </a>
@@ -746,7 +750,7 @@
                 </div>
                 <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo"
                   aria-expanded="false" style="height: 0px;">
-                  <div class="panel-body">
+                  <div class="edu-panel-body">
                     <p>
                       <b>
                         KONGTHONG WITTAYA SCHOOL
@@ -778,7 +782,7 @@
   <section class="section">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 text-center d-flex fadeInUp">
+        <div class="col-md-4 text-center d-flex" data-aos-duration="700" data-aos-once="false" data-aos="zoom-in">
           <a class="services-box">
             <span class="icon">
               <i class="fas fa-images" style="font-size: 60px;" aria-hidden="true"></i>
@@ -788,7 +792,7 @@
             </div>
           </a>
         </div>
-        <div class="col-md-4 text-center d-flex fadeInUp">
+        <div class="col-md-4 text-center d-flex"  data-aos-duration="700" data-aos-once="false" data-aos="zoom-in">
           <a class="services-box">
             <span class="icon">
               <i class="fas fa-photo-video" style="font-size: 60px;" aria-hidden="true"></i>
@@ -798,7 +802,7 @@
             </div>
           </a>
         </div>
-        <div class="col-md-4 text-center d-flex fadeInUp">
+        <div class="col-md-4 text-center d-flex"  data-aos-duration="700" data-aos-once="false" data-aos="zoom-in">
           <a class="services-box">
             <span class="icon">
               <i class="fas fa-camera-retro" style="font-size: 60px;" aria-hidden="true"></i>
@@ -830,7 +834,7 @@
         <!-- Grid column -->
         <div class="col-md-2 mb-3">
           <h6 class="text-uppercase font-weight-bold">
-            <a class="footer-link" href="#abouts">ABOUT</a>
+            <a class="footer-link smooth-scroll" href="#abouts">ABOUT</a>
           </h6>
         </div>
         <!-- Grid column -->
@@ -838,7 +842,7 @@
         <!-- Grid column -->
         <div class="col-md-2 mb-3">
           <h6 class="text-uppercase font-weight-bold">
-            <a class="footer-link" href="#services">SERVICE</a>
+            <a class="footer-link smooth-scroll" href="#exps">EXPERIENCE</a>
           </h6>
         </div>
         <!-- Grid column -->
@@ -846,10 +850,19 @@
         <!-- Grid column -->
         <div class="col-md-2 mb-3">
           <h6 class="text-uppercase font-weight-bold">
-            <a class="footer-link" href="#!">CONTACT</a>
+            <a class="footer-link smooth-scroll" href="#edus">EDUCATION</a>
           </h6>
         </div>
         <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 mb-3">
+          <h6 class="text-uppercase font-weight-bold">
+            <a class="footer-link smooth-scroll" href="#services">SERVICE</a>
+          </h6>
+        </div>
+        <!-- Grid column -->
+
       </div>
       <!-- Grid row-->
       <hr class="rgba-white-light" style="margin: 0 15%" />
@@ -897,7 +910,7 @@
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">
       © Copyright:
-      <a class="footer-link-copyright" href="#"> Frank Nattapol</a>
+      <a class="footer-link-copyright"> Frank Nattapol</a>
       </br>
       Designed By
       <a class="footer-link-copyright" target="_blank" href="https://github.com/RepriseCoding"> RepriseCoding</a>

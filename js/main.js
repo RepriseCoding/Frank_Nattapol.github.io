@@ -5,7 +5,7 @@ $(document).ready(function () {
     AOS.init({
       easing: "ease-in-out-sine",
       // uncomment below for on-scroll animations to played only once
-      once: true
+      once: false,
     }); // initialize animate on scroll library
   });
   
@@ -27,7 +27,7 @@ $(document).ready(function () {
           {
             scrollTop: target.offset().top,
           },
-          2000
+          700
           // function () {
           // Callback after animation
           // Must change focus!
